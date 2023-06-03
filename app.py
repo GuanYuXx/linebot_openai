@@ -20,9 +20,10 @@ static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
 line_bot_api = LineBotApi('IY83kYpHjJfFDWuEZ3SNvlfcEMzsujM2KxlzTGwxoLLVdVdr/qnk4kfue14vRDynPsSbYsbppp0pDkh9jsiGZ5/3Ef6WmGML8+2oFFWAgu7pDiFz1Ka1yonH3FkuIB707FUwh8jF5WMsjV5j2s2vqAdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler(os.getenv('27d4cc4d848d12ed49d97e869b0eb3e3'))
+handler = WebhookHandler('27d4cc4d848d12ed49d97e869b0eb3e3')
 # OPENAI API Key初始化設定
 openai.api_key = os.getenv('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')
+#os.getenv()
 
 
 def GPT_response(text):
