@@ -22,7 +22,7 @@ line_bot_api = LineBotApi('IY83kYpHjJfFDWuEZ3SNvlfcEMzsujM2KxlzTGwxoLLVdVdr/qnk4
 # Channel Secret
 handler = WebhookHandler('27d4cc4d848d12ed49d97e869b0eb3e3')
 # OPENAI API Key初始化設定
-openai.api_key = os.getenv('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')
+openai.api_key = os.getenv('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')
 #os.getenv()
 
 
